@@ -91,8 +91,11 @@ ul {
 /* ToDo lisyt */
 .todo-list {
     padding-top: 20px;
+    padding-bottom: 40px;
     background-color: #ffffff;
     color: #444851;
+
+    border-radius: 5px;
 }
 
 .caption {
@@ -103,8 +106,8 @@ ul {
 }
 
 .caption li {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .check {
@@ -114,10 +117,11 @@ ul {
     font-size: 1rem;
 
     text-align: center;
+    vertical-align: middle;
 
     display: inline-block;
 
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     border-radius: 50%;
 }
 
@@ -132,8 +136,46 @@ ul {
 }
 
 .task {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-left: 10px;
     
     display: inline-block;
+}
+
+.label {
+    background-color: #45abea;
+    color: #ffffff;
+    padding: 7px;
+    
+    font-size: 0.6rem;
+    font-weight: 700;
+
+    border: none;
+    border-radius: 10px;
+
+    display: inline-block;
+}
+
+.lab-editorial {
+    background-color: #45abea;
+}
+
+.lab-q1goals {
+    background-color: #9c72e4;
+}
+
+.lab-recruiting {
+    background-color: #64c0a9;
+}
+
+.lab-mobile {
+    background-color: #f29e33;
+}
+
+.lab-website {
+    background-color: #d863a1;
+}
+
+.lab-sales {
+    background-color: #b0c926;
 }
